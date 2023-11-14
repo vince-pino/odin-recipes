@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "OnePiece";
+  src: url(../OnePiece.ttf);
+}
+
+body {
+  background-image: url("../images/onepiece_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+h1 {
+  font-family: "OnePiece";
+  font-weight: bold;
+  color: rgb(255, 208, 0);
+  font-size: 120px;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 50px;
+}
