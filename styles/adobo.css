@@ -1,0 +1,21 @@
+.img-1,
+.img-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 520px;
+}
+
+.img-1 img,
+.img-2 img,
+.img-3 img {
+  transition: width 0.25s;
+}
+
+.img-1 img:hover,
+.img-2 img:hover,
+.img-3 img:hover {
+  width: 350px;
+  height: 100%;
+}

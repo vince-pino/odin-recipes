@@ -42,9 +42,25 @@ h3 {
 }
 
 .container.adobo {
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .container.adobo img {
   padding-right: 90px;
+}
+
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+
+.left img {
+  transition: width 0.25s;
+}
+
+.left img:hover {
+  width: 170px;
 }

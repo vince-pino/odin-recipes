@@ -1,0 +1,21 @@
+.lasagna,
+.adobo,
+.sinigang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 520px;
+}
+
+.lasagna img,
+.adobo img,
+.sinigang img {
+  transition: width 0.25s;
+}
+
+.lasagna img:hover,
+.adobo img:hover,
+.sinigang img:hover {
+  width: 350px;
+}
